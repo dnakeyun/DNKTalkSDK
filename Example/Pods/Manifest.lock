@@ -1,0 +1,27 @@
+PODS:
+  - AYUtils (0.1.7):
+    - MBProgressHUD
+  - DNKTalkSDK (1.0.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - AYUtils
+  - DNKTalkSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AYUtils
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  DNKTalkSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AYUtils: c31a4fee1c90c410bb9cf5baa1ecbd898bda8d70
+  DNKTalkSDK: 0d3f5f00792fe17be52875beb7897f47ecd45304
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: 7dd04fd60d5232f461b4fc015b0f8c09edb084ba
+
+COCOAPODS: 1.11.3

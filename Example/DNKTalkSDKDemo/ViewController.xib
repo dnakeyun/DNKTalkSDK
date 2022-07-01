@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="deviceSipTextField" destination="Og9-Ot-ViA" id="CG9-dY-0qk"/>
+                <outlet property="sipAccountTextField" destination="VB9-i0-ZW5" id="7qs-ht-nyg"/>
+                <outlet property="sipPasswordTextField" destination="m7p-5i-Uq0" id="Hjw-oZ-l01"/>
+                <outlet property="sipServiceTextField" destination="OFN-Og-7gk" id="Blu-8q-8P0"/>
+                <outlet property="view" destination="6Ck-t4-SaB" id="WhO-3T-8J0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6Ck-t4-SaB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sip服务器：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7XQ-4N-q4c">
+                    <rect key="frame" x="16" y="16" width="94" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sip账号：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Yk-Mg-VXx">
+                    <rect key="frame" x="16" y="101" width="76.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sip密码：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4v-Zv-v3g">
+                    <rect key="frame" x="16" y="186" width="77" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sip服务器" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="OFN-Og-7gk">
+                    <rect key="frame" x="16" y="45" width="343" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="eK5-h0-ZF4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="W3S-BT-gac"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sip账号" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="VB9-i0-ZW5">
+                    <rect key="frame" x="16" y="130" width="343" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="2pG-CI-4VF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="InP-SL-6p6"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sip密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="m7p-5i-Uq0">
+                    <rect key="frame" x="16" y="215" width="343" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="lb0-Cl-hLN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="SoZ-EL-z2h"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGF-lq-3Gv">
+                    <rect key="frame" x="60" y="372" width="255" height="40"/>
+                    <color key="backgroundColor" red="0.01006639024" green="0.64731902220000004" blue="0.71024286749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Ov6-cu-X9n"/>
+                    </constraints>
+                    <state key="normal" title="监视门口机">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="monitorVideoMethod" destination="-1" eventType="touchUpInside" id="yAG-ET-tNG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLt-Nn-jrT">
+                    <rect key="frame" x="60" y="436" width="255" height="40"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="XbZ-f7-htJ"/>
+                    </constraints>
+                    <state key="normal" title="开门">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="unLockMethod" destination="-1" eventType="touchUpInside" id="wuW-7x-7F4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3J-Go-lQT">
+                    <rect key="frame" x="60" y="500" width="255" height="40"/>
+                    <color key="backgroundColor" red="0.26274509800000001" green="0.2666666667" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="vSM-GS-fgT"/>
+                    </constraints>
+                    <state key="normal" title="蓝牙开锁">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="bleUnlockMethod" destination="-1" eventType="touchUpInside" id="jqx-Oi-3gh"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="监视目标设备的Sip号：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqA-0m-GCB">
+                    <rect key="frame" x="16" y="271" width="180.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="监视目标设备的Sip号" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Og9-Ot-ViA">
+                    <rect key="frame" x="16" y="300" width="343" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="lHX-CR-tb8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="IGj-lK-Wa7"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oGF-lq-3Gv" firstAttribute="top" secondItem="Og9-Ot-ViA" secondAttribute="bottom" constant="32" id="2Ex-XE-9l0"/>
+                <constraint firstItem="VB9-i0-ZW5" firstAttribute="top" secondItem="6Yk-Mg-VXx" secondAttribute="bottom" constant="8" id="8Dn-kC-bkZ"/>
+                <constraint firstItem="eLt-Nn-jrT" firstAttribute="leading" secondItem="oGF-lq-3Gv" secondAttribute="leading" id="Cz9-ZL-CMU"/>
+                <constraint firstItem="YqA-0m-GCB" firstAttribute="top" secondItem="m7p-5i-Uq0" secondAttribute="bottom" constant="16" id="GDI-dv-i9h"/>
+                <constraint firstItem="VB9-i0-ZW5" firstAttribute="leading" secondItem="6Yk-Mg-VXx" secondAttribute="leading" id="GyC-o1-oNZ"/>
+                <constraint firstItem="oGF-lq-3Gv" firstAttribute="leading" secondItem="fXC-UB-VXI" secondAttribute="leading" constant="60" id="IGN-2a-cHd"/>
+                <constraint firstItem="f3J-Go-lQT" firstAttribute="trailing" secondItem="eLt-Nn-jrT" secondAttribute="trailing" id="LPa-8E-FaW"/>
+                <constraint firstItem="fXC-UB-VXI" firstAttribute="trailing" secondItem="OFN-Og-7gk" secondAttribute="trailing" constant="16" id="Ljv-cJ-dmB"/>
+                <constraint firstItem="fXC-UB-VXI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7XQ-4N-q4c" secondAttribute="trailing" symbolic="YES" id="P68-z9-OPs"/>
+                <constraint firstItem="eLt-Nn-jrT" firstAttribute="top" secondItem="oGF-lq-3Gv" secondAttribute="bottom" constant="24" id="PAS-te-mMs"/>
+                <constraint firstItem="Og9-Ot-ViA" firstAttribute="leading" secondItem="YqA-0m-GCB" secondAttribute="leading" id="Qcr-f5-YjR"/>
+                <constraint firstItem="fXC-UB-VXI" firstAttribute="trailing" secondItem="VB9-i0-ZW5" secondAttribute="trailing" constant="16" id="Rns-7W-7vS"/>
+                <constraint firstItem="t4v-Zv-v3g" firstAttribute="top" secondItem="VB9-i0-ZW5" secondAttribute="bottom" constant="16" id="Vgz-2D-r4x"/>
+                <constraint firstItem="7XQ-4N-q4c" firstAttribute="leading" secondItem="fXC-UB-VXI" secondAttribute="leading" constant="16" id="YN9-5a-h2E"/>
+                <constraint firstItem="fXC-UB-VXI" firstAttribute="trailing" secondItem="m7p-5i-Uq0" secondAttribute="trailing" constant="16" id="dO9-dD-j1n"/>
+                <constraint firstItem="6Yk-Mg-VXx" firstAttribute="top" secondItem="OFN-Og-7gk" secondAttribute="bottom" constant="16" id="f0l-7H-C3j"/>
+                <constraint firstItem="6Yk-Mg-VXx" firstAttribute="leading" secondItem="OFN-Og-7gk" secondAttribute="leading" id="f7K-3G-fPJ"/>
+                <constraint firstItem="fXC-UB-VXI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Yk-Mg-VXx" secondAttribute="trailing" symbolic="YES" id="glf-J1-RNn"/>
+                <constraint firstItem="m7p-5i-Uq0" firstAttribute="top" secondItem="t4v-Zv-v3g" secondAttribute="bottom" constant="8" id="gxU-fU-8ee"/>
+                <constraint firstItem="f3J-Go-lQT" firstAttribute="leading" secondItem="eLt-Nn-jrT" secondAttribute="leading" id="hLp-Gn-jbY"/>
+                <constraint firstItem="m7p-5i-Uq0" firstAttribute="leading" secondItem="t4v-Zv-v3g" secondAttribute="leading" id="i0v-Bu-veW"/>
+                <constraint firstItem="fXC-UB-VXI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="t4v-Zv-v3g" secondAttribute="trailing" symbolic="YES" id="iN1-N5-Ouv"/>
+                <constraint firstItem="Og9-Ot-ViA" firstAttribute="leading" secondItem="fXC-UB-VXI" secondAttribute="leading" constant="16" id="lyt-Tf-ppz"/>
+                <constraint firstItem="Og9-Ot-ViA" firstAttribute="top" secondItem="YqA-0m-GCB" secondAttribute="bottom" constant="8" id="mO0-gb-EQ6"/>
+                <constraint firstItem="t4v-Zv-v3g" firstAttribute="leading" secondItem="VB9-i0-ZW5" secondAttribute="leading" id="q2l-YI-pLK"/>
+                <constraint firstItem="fXC-UB-VXI" firstAttribute="trailing" secondItem="Og9-Ot-ViA" secondAttribute="trailing" constant="16" id="s7D-XS-Vg9"/>
+                <constraint firstItem="f3J-Go-lQT" firstAttribute="top" secondItem="eLt-Nn-jrT" secondAttribute="bottom" constant="24" id="sze-af-74G"/>
+                <constraint firstItem="OFN-Og-7gk" firstAttribute="leading" secondItem="7XQ-4N-q4c" secondAttribute="leading" id="tjD-YZ-a6D"/>
+                <constraint firstItem="fXC-UB-VXI" firstAttribute="trailing" secondItem="oGF-lq-3Gv" secondAttribute="trailing" constant="60" id="xNi-QF-DRb"/>
+                <constraint firstItem="7XQ-4N-q4c" firstAttribute="top" secondItem="fXC-UB-VXI" secondAttribute="top" constant="16" id="xkD-FB-KGy"/>
+                <constraint firstItem="eLt-Nn-jrT" firstAttribute="trailing" secondItem="oGF-lq-3Gv" secondAttribute="trailing" id="zEi-N7-JqW"/>
+                <constraint firstItem="OFN-Og-7gk" firstAttribute="top" secondItem="7XQ-4N-q4c" secondAttribute="bottom" constant="8" id="zQe-6u-Hgx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fXC-UB-VXI"/>
+            <point key="canvasLocation" x="132" y="120"/>
+        </view>
+    </objects>
+</document>

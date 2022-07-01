@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  DNKTalkSDKDemo
+//
+//  Created by 赖盛源 on 2019/7/15.
+//  Copyright © 2019 dnake_ay. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//狄耐克对讲库
+#import <DNKTalkSDK/DNKTalkManager.h>
+#import <DNKTalkSDK/SipConfigEntity.h>
+
+//sip设备配置（测试账号）
+
+#define SIP_SERVICE     @""
+#define SIP_ACCOUNT     @""
+#define SIP_PASSWORD    @""
+#define SIP_DEVICE_CODE @""
+
+/*------------------------ 蓝牙开锁 ------------------------*/
+#define BLE_UNLOCK_MAC_ADDRESS1 @"mac地址1"    //蓝牙开锁mac地址
+#define BLE_UNLOCK_MAC_ADDRESS2 @"mac地址2"
+
+#endif /* PrefixHeader_pch */

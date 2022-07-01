@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		775EA63E982D2E2DEBA4A54DA31108A0 /* DNKTalkSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6AF59722035A1D63A4356A4B51A399A3 /* Build configuration list for PBXAggregateTarget "DNKTalkSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = DNKTalkSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03A49C365C41EAB65368EFA62F16757A /* EncodeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB83090BE668670F56F38F5489AA489 /* EncodeControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37223146C1DBEE156B511BB50032C091 /* AYWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8605B6AF96EB2452C88FC10FED2EE6B7 /* AYWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4035A78B2A97A46CE3C0D98A9921EE72 /* AYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FEA9ECE447A7FED05DC186B94D8E3 /* AYWebView.m */; };
+		5962CBE20F01CEBC0D73BDFE6DF0E17E /* AYGetLocalIpAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D4ECE7CE3AEDFBECFA60768D21F576 /* AYGetLocalIpAddress.m */; };
+		5DB10EF8ADF1A0087043CEB17D5E7FD5 /* AYProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DAFCEC5F2E0AA0FA9CFBDCED73B62B /* AYProgressHud.m */; };
+		61818A084779FB1F3DC4BFE8E612E823 /* AYUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0013242F57520598E57D35F7B06918 /* AYUtils-dummy.m */; };
+		70824D24C0DAB836FA79985429156DB5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B5B62ED3F79D286ED7AB9D27B84A8 /* MBProgressHUD.m */; };
+		71C5FF1B4F56E6D39350335CBA18B7DE /* AYAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F5B5CB92DB1745A617A55E59210A5E /* AYAlertViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71F01B8924A3BA51A662703A3A6E7EC7 /* AYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CD9607203BBC684E6E5B08A686D0A1 /* AYAlertViewController.m */; };
+		83894A39DF6880893348EEA2FCA993B0 /* AYProgressHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FE42F1EBE6011EC16739515C9D3251 /* AYProgressHud.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86D3D40C79E32B42B306772775C7C731 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F43D029670BF3DDA0FD6960CA728B4 /* MBProgressHUD-dummy.m */; };
+		8F54D3245D1F7E323DE37973F169DEB0 /* AYGetLocalIpAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = CC99EA5561E05CBF98834AD255BADCC5 /* AYGetLocalIpAddress.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93D8560872AF9D47F840120C940674D8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E491B644CB54632F6B27ACC1E37679AF /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C09AF969230151662E83F3A217B5734E /* Pods-DNKTalkSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 432643FD1E860DE5338B401AF051A81F /* Pods-DNKTalkSDKDemo-dummy.m */; };
+		C302EE629EE8CC6F26179842EA959EF1 /* EncodeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EF091F0BD822B7B517C6470855196B /* EncodeControl.m */; };
+		FFEEEDA7962B2EAA9E03C245F270F780 /* AYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A19CB0AA94192DF68950F6C3F8272E /* AYUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		453905DF79410E8B0EFC7754AC625FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		606C8A3F2A2AB7AAE1C94CA76A9E0F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		B09C0B46A3E087BF125F46219E5D317B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1B2C5FA33B0405CC2EC6D6B3635FFD2;
+			remoteInfo = AYUtils;
+		};
+		DDBAA273DFF5998AF7C3152F562CF4D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775EA63E982D2E2DEBA4A54DA31108A0;
+			remoteInfo = DNKTalkSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0013242F57520598E57D35F7B06918 /* AYUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYUtils-dummy.m"; sourceTree = "<group>"; };
+		11FE42F1EBE6011EC16739515C9D3251 /* AYProgressHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYProgressHud.h; path = AYUtils/AYUtils/AYProgressHud.h; sourceTree = "<group>"; };
+		1F001D6BB022EB1161D9443FA79D94DF /* DNKTalkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DNKTalkSDK.framework; path = DNKTalkSDK/DNKTalkSDK.framework; sourceTree = "<group>"; };
+		2023259A4EFA2198F850C60387757E81 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		271C6923A01FF7788AA5107A772E1B63 /* DNKTalkSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DNKTalkSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40F5B5CB92DB1745A617A55E59210A5E /* AYAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYAlertViewController.h; path = AYUtils/AYUtils/AYAlertViewController.h; sourceTree = "<group>"; };
+		415CE271A66F561810C9548777CC9688 /* AYUtils */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = AYUtils; path = libAYUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		432643FD1E860DE5338B401AF051A81F /* Pods-DNKTalkSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNKTalkSDKDemo-dummy.m"; sourceTree = "<group>"; };
+		56F38FC367FF9EDF83D69A015BB2883D /* Pods-DNKTalkSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKTalkSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5A585D5CC561AA19529CC69FAAC58981 /* DNKTalkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNKTalkSDK.debug.xcconfig; sourceTree = "<group>"; };
+		61CD9607203BBC684E6E5B08A686D0A1 /* AYAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AYAlertViewController.m; path = AYUtils/AYUtils/AYAlertViewController.m; sourceTree = "<group>"; };
+		727F1C81B1CB7057214F8E2432C90B30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7305667775257D529C53846D9387098D /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		73559FE7D76BD419E5C786B3E303BC5D /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		765FEA9ECE447A7FED05DC186B94D8E3 /* AYWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AYWebView.m; path = AYUtils/AYUtils/AYWebView.m; sourceTree = "<group>"; };
+		7EF5D3952C813B4E395C3A115520BB67 /* AYUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYUtils.debug.xcconfig; sourceTree = "<group>"; };
+		8605B6AF96EB2452C88FC10FED2EE6B7 /* AYWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYWebView.h; path = AYUtils/AYUtils/AYWebView.h; sourceTree = "<group>"; };
+		86A19CB0AA94192DF68950F6C3F8272E /* AYUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYUtils.h; path = AYUtils/AYUtils/AYUtils.h; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MBProgressHUD; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7B399CBB8A93720AB1254E31AF1A10 /* AYUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYUtils.release.xcconfig; sourceTree = "<group>"; };
+		9AB83090BE668670F56F38F5489AA489 /* EncodeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EncodeControl.h; path = AYUtils/AYUtils/EncodeControl.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB3271F7166024EB3042BCDF90BA508 /* Pods-DNKTalkSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNKTalkSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
+		A67FB102C83D0837BC774A4BBF6B8FF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A76B5B62ED3F79D286ED7AB9D27B84A8 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		AF147830C1BF08993EFD3C2A0DB932D5 /* Pods-DNKTalkSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKTalkSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4DAFCEC5F2E0AA0FA9CFBDCED73B62B /* AYProgressHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AYProgressHud.m; path = AYUtils/AYUtils/AYProgressHud.m; sourceTree = "<group>"; };
+		B5205E934E8B9D38B298FE7408AA28A5 /* Pods-DNKTalkSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKTalkSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B5EF091F0BD822B7B517C6470855196B /* EncodeControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EncodeControl.m; path = AYUtils/AYUtils/EncodeControl.m; sourceTree = "<group>"; };
+		B7F43D029670BF3DDA0FD6960CA728B4 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		BED0E786E2E2B9593E5C60A513ECF570 /* Pods-DNKTalkSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNKTalkSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC99EA5561E05CBF98834AD255BADCC5 /* AYGetLocalIpAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYGetLocalIpAddress.h; path = AYUtils/AYUtils/AYGetLocalIpAddress.h; sourceTree = "<group>"; };
+		D1A3F53EA0E1D84C5C3B0D4AF5AE6972 /* AYUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYUtils-prefix.pch"; sourceTree = "<group>"; };
+		D5C67D7729233CC18080EE2A562B69F1 /* Pods-DNKTalkSDKDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-DNKTalkSDKDemo"; path = "libPods-DNKTalkSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B8873DF7CFF2DF206A9905B19F8E03 /* DNKTalkSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNKTalkSDK.release.xcconfig; sourceTree = "<group>"; };
+		E491B644CB54632F6B27ACC1E37679AF /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E5D4ECE7CE3AEDFBECFA60768D21F576 /* AYGetLocalIpAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AYGetLocalIpAddress.m; path = AYUtils/AYUtils/AYGetLocalIpAddress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093EF2A1C710808DAEA620EB27471DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C4BA43D9F9B49582697C067A481B0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DC7255191EFA121B70C8E4C106BE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EB7236DAC172F27C5909FC0F621F13 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E491B644CB54632F6B27ACC1E37679AF /* MBProgressHUD.h */,
+				A76B5B62ED3F79D286ED7AB9D27B84A8 /* MBProgressHUD.m */,
+				6E0F6FF74DB08883C00D7D88966EA568 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1ABAAD212D8B1FD42BC07FD35ADC22FA /* DNKTalkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C1C0F2EE1A1735B84D377F8AD2D9C2D2 /* Frameworks */,
+				8495B317FEB43C3EFEF33F9EA4E2AFE4 /* Pod */,
+				9A0DE62E013E94EBD414D18A6EFC3227 /* Support Files */,
+			);
+			name = DNKTalkSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4490E4D97483F4F7CD4CEF8BBE0123C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0013242F57520598E57D35F7B06918 /* AYUtils-dummy.m */,
+				D1A3F53EA0E1D84C5C3B0D4AF5AE6972 /* AYUtils-prefix.pch */,
+				7EF5D3952C813B4E395C3A115520BB67 /* AYUtils.debug.xcconfig */,
+				8F7B399CBB8A93720AB1254E31AF1A10 /* AYUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AYUtils";
+			sourceTree = "<group>";
+		};
+		5A58AD973F3715C0725BE8B8C9870858 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9634AD7CBB8FB79EF0207B66E1C6400D /* Pods-DNKTalkSDKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FE1592943A023A9B5FA46BB59FFBBE2 /* AYUtils */ = {
+			isa = PBXGroup;
+			children = (
+				40F5B5CB92DB1745A617A55E59210A5E /* AYAlertViewController.h */,
+				61CD9607203BBC684E6E5B08A686D0A1 /* AYAlertViewController.m */,
+				CC99EA5561E05CBF98834AD255BADCC5 /* AYGetLocalIpAddress.h */,
+				E5D4ECE7CE3AEDFBECFA60768D21F576 /* AYGetLocalIpAddress.m */,
+				11FE42F1EBE6011EC16739515C9D3251 /* AYProgressHud.h */,
+				B4DAFCEC5F2E0AA0FA9CFBDCED73B62B /* AYProgressHud.m */,
+				86A19CB0AA94192DF68950F6C3F8272E /* AYUtils.h */,
+				8605B6AF96EB2452C88FC10FED2EE6B7 /* AYWebView.h */,
+				765FEA9ECE447A7FED05DC186B94D8E3 /* AYWebView.m */,
+				9AB83090BE668670F56F38F5489AA489 /* EncodeControl.h */,
+				B5EF091F0BD822B7B517C6470855196B /* EncodeControl.m */,
+				4490E4D97483F4F7CD4CEF8BBE0123C9 /* Support Files */,
+			);
+			name = AYUtils;
+			path = AYUtils;
+			sourceTree = "<group>";
+		};
+		62D094AEA74412EA279494FA53CB7D1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FE1592943A023A9B5FA46BB59FFBBE2 /* AYUtils */,
+				06EB7236DAC172F27C5909FC0F621F13 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E0F6FF74DB08883C00D7D88966EA568 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7F43D029670BF3DDA0FD6960CA728B4 /* MBProgressHUD-dummy.m */,
+				73559FE7D76BD419E5C786B3E303BC5D /* MBProgressHUD-prefix.pch */,
+				7305667775257D529C53846D9387098D /* MBProgressHUD.debug.xcconfig */,
+				2023259A4EFA2198F850C60387757E81 /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		8495B317FEB43C3EFEF33F9EA4E2AFE4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				271C6923A01FF7788AA5107A772E1B63 /* DNKTalkSDK.podspec */,
+				727F1C81B1CB7057214F8E2432C90B30 /* LICENSE */,
+				A67FB102C83D0837BC774A4BBF6B8FF8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		91221CEA885CB1DFB1E1A5C0249B9A9E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAAD212D8B1FD42BC07FD35ADC22FA /* DNKTalkSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9634AD7CBB8FB79EF0207B66E1C6400D /* Pods-DNKTalkSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BED0E786E2E2B9593E5C60A513ECF570 /* Pods-DNKTalkSDKDemo-acknowledgements.markdown */,
+				AF147830C1BF08993EFD3C2A0DB932D5 /* Pods-DNKTalkSDKDemo-acknowledgements.plist */,
+				432643FD1E860DE5338B401AF051A81F /* Pods-DNKTalkSDKDemo-dummy.m */,
+				9DB3271F7166024EB3042BCDF90BA508 /* Pods-DNKTalkSDKDemo-frameworks.sh */,
+				56F38FC367FF9EDF83D69A015BB2883D /* Pods-DNKTalkSDKDemo.debug.xcconfig */,
+				B5205E934E8B9D38B298FE7408AA28A5 /* Pods-DNKTalkSDKDemo.release.xcconfig */,
+			);
+			name = "Pods-DNKTalkSDKDemo";
+			path = "Target Support Files/Pods-DNKTalkSDKDemo";
+			sourceTree = "<group>";
+		};
+		9A0DE62E013E94EBD414D18A6EFC3227 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A585D5CC561AA19529CC69FAAC58981 /* DNKTalkSDK.debug.xcconfig */,
+				D6B8873DF7CFF2DF206A9905B19F8E03 /* DNKTalkSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DNKTalkSDK";
+			sourceTree = "<group>";
+		};
+		C1C0F2EE1A1735B84D377F8AD2D9C2D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F001D6BB022EB1161D9443FA79D94DF /* DNKTalkSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				91221CEA885CB1DFB1E1A5C0249B9A9E /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				62D094AEA74412EA279494FA53CB7D1B /* Pods */,
+				FC9A099C3E82534E80AF9303DE917F8E /* Products */,
+				5A58AD973F3715C0725BE8B8C9870858 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC9A099C3E82534E80AF9303DE917F8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415CE271A66F561810C9548777CC9688 /* AYUtils */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
+				D5C67D7729233CC18080EE2A562B69F1 /* Pods-DNKTalkSDKDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8F62DD47214D3CCFE03BA5340FCA2BF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D8560872AF9D47F840120C940674D8 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5840B3E3D2A43EE08544A0CA36A7A8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C5FF1B4F56E6D39350335CBA18B7DE /* AYAlertViewController.h in Headers */,
+				8F54D3245D1F7E323DE37973F169DEB0 /* AYGetLocalIpAddress.h in Headers */,
+				83894A39DF6880893348EEA2FCA993B0 /* AYProgressHud.h in Headers */,
+				FFEEEDA7962B2EAA9E03C245F270F780 /* AYUtils.h in Headers */,
+				37223146C1DBEE156B511BB50032C091 /* AYWebView.h in Headers */,
+				03A49C365C41EAB65368EFA62F16757A /* EncodeControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC0922C137583F2B29C2240151DFF92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0ADD655FE7441A141CBFAC135779C7E /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				8F62DD47214D3CCFE03BA5340FCA2BF0 /* Headers */,
+				727D0803239E87155F028013171966DD /* Sources */,
+				093EF2A1C710808DAEA620EB27471DFD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9DB38D98C86C87ED77140F948AFD7EE /* Pods-DNKTalkSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47419652B400E470348E5651DFB22DE /* Build configuration list for PBXNativeTarget "Pods-DNKTalkSDKDemo" */;
+			buildPhases = (
+				FFC0922C137583F2B29C2240151DFF92 /* Headers */,
+				D35FF15FB9347CFA6F53D7B222A72925 /* Sources */,
+				47DC7255191EFA121B70C8E4C106BE98 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9DBC03D2B7C3A7FB09FEEF3374E020 /* PBXTargetDependency */,
+				CD60A1A61DD88A182DF12B4503E29E4C /* PBXTargetDependency */,
+				C13EE8B3466B0915A019AE1CD5EA111F /* PBXTargetDependency */,
+			);
+			name = "Pods-DNKTalkSDKDemo";
+			productName = "Pods-DNKTalkSDKDemo";
+			productReference = D5C67D7729233CC18080EE2A562B69F1 /* Pods-DNKTalkSDKDemo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1B2C5FA33B0405CC2EC6D6B3635FFD2 /* AYUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947F24DA0BF422503551753EC3014406 /* Build configuration list for PBXNativeTarget "AYUtils" */;
+			buildPhases = (
+				B5840B3E3D2A43EE08544A0CA36A7A8C /* Headers */,
+				7FBC0D2DF420FA71EB553C25CC620D6B /* Sources */,
+				0C4BA43D9F9B49582697C067A481B0E5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D7E68DCEBD7089A4835DD4C23968F23 /* PBXTargetDependency */,
+			);
+			name = AYUtils;
+			productName = AYUtils;
+			productReference = 415CE271A66F561810C9548777CC9688 /* AYUtils */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FC9A099C3E82534E80AF9303DE917F8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1B2C5FA33B0405CC2EC6D6B3635FFD2 /* AYUtils */,
+				775EA63E982D2E2DEBA4A54DA31108A0 /* DNKTalkSDK */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				A9DB38D98C86C87ED77140F948AFD7EE /* Pods-DNKTalkSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		727D0803239E87155F028013171966DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70824D24C0DAB836FA79985429156DB5 /* MBProgressHUD.m in Sources */,
+				86D3D40C79E32B42B306772775C7C731 /* MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FBC0D2DF420FA71EB553C25CC620D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F01B8924A3BA51A662703A3A6E7EC7 /* AYAlertViewController.m in Sources */,
+				5962CBE20F01CEBC0D73BDFE6DF0E17E /* AYGetLocalIpAddress.m in Sources */,
+				5DB10EF8ADF1A0087043CEB17D5E7FD5 /* AYProgressHud.m in Sources */,
+				61818A084779FB1F3DC4BFE8E612E823 /* AYUtils-dummy.m in Sources */,
+				4035A78B2A97A46CE3C0D98A9921EE72 /* AYWebView.m in Sources */,
+				C302EE629EE8CC6F26179842EA959EF1 /* EncodeControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35FF15FB9347CFA6F53D7B222A72925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09AF969230151662E83F3A217B5734E /* Pods-DNKTalkSDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D7E68DCEBD7089A4835DD4C23968F23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 606C8A3F2A2AB7AAE1C94CA76A9E0F4F /* PBXContainerItemProxy */;
+		};
+		C13EE8B3466B0915A019AE1CD5EA111F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 453905DF79410E8B0EFC7754AC625FB1 /* PBXContainerItemProxy */;
+		};
+		CD60A1A61DD88A182DF12B4503E29E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNKTalkSDK;
+			target = 775EA63E982D2E2DEBA4A54DA31108A0 /* DNKTalkSDK */;
+			targetProxy = DDBAA273DFF5998AF7C3152F562CF4D4 /* PBXContainerItemProxy */;
+		};
+		EB9DBC03D2B7C3A7FB09FEEF3374E020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYUtils;
+			target = F1B2C5FA33B0405CC2EC6D6B3635FFD2 /* AYUtils */;
+			targetProxy = B09C0B46A3E087BF125F46219E5D317B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61828298B606FBC6666DFC51BD6EAA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7305667775257D529C53846D9387098D /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		703674B7D75416ECF0FA08185DF1588F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF5D3952C813B4E395C3A115520BB67 /* AYUtils.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AYUtils/AYUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AYUtils;
+				PRODUCT_NAME = AYUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80D277700E3764A7B57622989D661CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7B399CBB8A93720AB1254E31AF1A10 /* AYUtils.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AYUtils/AYUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AYUtils;
+				PRODUCT_NAME = AYUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE5D9367A5FBA8ABF509D7E040EB1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B8873DF7CFF2DF206A9905B19F8E03 /* DNKTalkSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF26A5C3C602912E1338CEDAC8879119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A585D5CC561AA19529CC69FAAC58981 /* DNKTalkSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0E8CAB6E6E5A44F127F2EF91E932640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5205E934E8B9D38B298FE7408AA28A5 /* Pods-DNKTalkSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE2C06BDADB4D6A6827B6FCBFE7DDFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2023259A4EFA2198F850C60387757E81 /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC328545EB2146036216A921560A9A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F38FC367FF9EDF83D69A015BB2883D /* Pods-DNKTalkSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF59722035A1D63A4356A4B51A399A3 /* Build configuration list for PBXAggregateTarget "DNKTalkSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26A5C3C602912E1338CEDAC8879119 /* Debug */,
+				9BE5D9367A5FBA8ABF509D7E040EB1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947F24DA0BF422503551753EC3014406 /* Build configuration list for PBXNativeTarget "AYUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703674B7D75416ECF0FA08185DF1588F /* Debug */,
+				80D277700E3764A7B57622989D661CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0ADD655FE7441A141CBFAC135779C7E /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61828298B606FBC6666DFC51BD6EAA79 /* Debug */,
+				DE2C06BDADB4D6A6827B6FCBFE7DDFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47419652B400E470348E5651DFB22DE /* Build configuration list for PBXNativeTarget "Pods-DNKTalkSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC328545EB2146036216A921560A9A97 /* Debug */,
+				C0E8CAB6E6E5A44F127F2EF91E932640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

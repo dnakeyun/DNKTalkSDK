@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196A9FFC22DD572C00E8BDE0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196A9FFB22DD572C00E8BDE0 /* ViewController.xib */; };
+		1984E01E22CD9C240012A24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1984E01D22CD9C240012A24B /* Assets.xcassets */; };
+		1984E02122CD9C240012A24B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1984E01F22CD9C240012A24B /* LaunchScreen.storyboard */; };
+		1984E03C22CDCEBD0012A24B /* IncomingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1984E03B22CDCEBD0012A24B /* IncomingViewController.xib */; };
+		19DE768822D4331E007C0041 /* MonitorVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DE768622D4331E007C0041 /* MonitorVideoViewController.xib */; };
+		1E7EEADC286E9E4300A69404 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984E01522CD9C1C0012A24B /* AppDelegate.m */; };
+		1E7EEADD286E9EC900A69404 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984E01822CD9C1C0012A24B /* ViewController.m */; };
+		1E7EEADE286E9ECB00A69404 /* IncomingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984E03622CDA8770012A24B /* IncomingViewController.m */; };
+		1E7EEADF286E9ECE00A69404 /* MonitorVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DE768522D4331E007C0041 /* MonitorVideoViewController.m */; };
+		1E7EEAE0286E9ED000A69404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984E02322CD9C240012A24B /* main.m */; };
+		8682B118CC7FCFBFF3C667DC /* libPods-DNKTalkSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2EFC4056F60F5DBC175F48 /* libPods-DNKTalkSDKDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		198958F122D86471008409DD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		195BEE0222DC6BF2002A7452 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		196A9FFB22DD572C00E8BDE0 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		1984E01122CD9C1C0012A24B /* DNKTalkSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNKTalkSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1984E01422CD9C1C0012A24B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1984E01522CD9C1C0012A24B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1984E01722CD9C1C0012A24B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1984E01822CD9C1C0012A24B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1984E01D22CD9C240012A24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1984E02022CD9C240012A24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1984E02222CD9C240012A24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1984E02322CD9C240012A24B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1984E03522CDA8770012A24B /* IncomingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IncomingViewController.h; sourceTree = "<group>"; };
+		1984E03622CDA8770012A24B /* IncomingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IncomingViewController.m; sourceTree = "<group>"; };
+		1984E03B22CDCEBD0012A24B /* IncomingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IncomingViewController.xib; sourceTree = "<group>"; };
+		19DE768422D4331E007C0041 /* MonitorVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonitorVideoViewController.h; sourceTree = "<group>"; };
+		19DE768522D4331E007C0041 /* MonitorVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonitorVideoViewController.m; sourceTree = "<group>"; };
+		19DE768622D4331E007C0041 /* MonitorVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonitorVideoViewController.xib; sourceTree = "<group>"; };
+		2E2EFC4056F60F5DBC175F48 /* libPods-DNKTalkSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DNKTalkSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9C38343768A81CA3045206 /* Pods-DNKTalkSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKTalkSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-DNKTalkSDKDemo/Pods-DNKTalkSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7ABE836B7D8692B876B0B2E8 /* Pods-DNKTalkSDKTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKTalkSDKTestDemo.release.xcconfig"; path = "Target Support Files/Pods-DNKTalkSDKTestDemo/Pods-DNKTalkSDKTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D263ACCB1FB0EDB54BD2BDC6 /* Pods-DNKTalkSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKTalkSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-DNKTalkSDKDemo/Pods-DNKTalkSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D79921B4BE55F2B7532AB18F /* Pods-DNKTalkSDKTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKTalkSDKTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-DNKTalkSDKTestDemo/Pods-DNKTalkSDKTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1984E00E22CD9C1C0012A24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8682B118CC7FCFBFF3C667DC /* libPods-DNKTalkSDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1984E00822CD9C1C0012A24B = {
+			isa = PBXGroup;
+			children = (
+				1984E01322CD9C1C0012A24B /* DNKTalkSDKDemo */,
+				1984E01222CD9C1C0012A24B /* Products */,
+				1984E02C22CD9C5C0012A24B /* Frameworks */,
+				DD34C1FAE13781921618C5FC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1984E01222CD9C1C0012A24B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1984E01122CD9C1C0012A24B /* DNKTalkSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1984E01322CD9C1C0012A24B /* DNKTalkSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1984E01422CD9C1C0012A24B /* AppDelegate.h */,
+				1984E01522CD9C1C0012A24B /* AppDelegate.m */,
+				1984E01722CD9C1C0012A24B /* ViewController.h */,
+				1984E01822CD9C1C0012A24B /* ViewController.m */,
+				196A9FFB22DD572C00E8BDE0 /* ViewController.xib */,
+				1984E03522CDA8770012A24B /* IncomingViewController.h */,
+				1984E03622CDA8770012A24B /* IncomingViewController.m */,
+				1984E03B22CDCEBD0012A24B /* IncomingViewController.xib */,
+				19DE768422D4331E007C0041 /* MonitorVideoViewController.h */,
+				19DE768522D4331E007C0041 /* MonitorVideoViewController.m */,
+				19DE768622D4331E007C0041 /* MonitorVideoViewController.xib */,
+				1984E01D22CD9C240012A24B /* Assets.xcassets */,
+				1984E01F22CD9C240012A24B /* LaunchScreen.storyboard */,
+				1984E02222CD9C240012A24B /* Info.plist */,
+				1984E02322CD9C240012A24B /* main.m */,
+				195BEE0222DC6BF2002A7452 /* PrefixHeader.pch */,
+			);
+			path = DNKTalkSDKDemo;
+			sourceTree = "<group>";
+		};
+		1984E02C22CD9C5C0012A24B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2EFC4056F60F5DBC175F48 /* libPods-DNKTalkSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD34C1FAE13781921618C5FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D79921B4BE55F2B7532AB18F /* Pods-DNKTalkSDKTestDemo.debug.xcconfig */,
+				7ABE836B7D8692B876B0B2E8 /* Pods-DNKTalkSDKTestDemo.release.xcconfig */,
+				5D9C38343768A81CA3045206 /* Pods-DNKTalkSDKDemo.debug.xcconfig */,
+				D263ACCB1FB0EDB54BD2BDC6 /* Pods-DNKTalkSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1984E01022CD9C1C0012A24B /* DNKTalkSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1984E02722CD9C240012A24B /* Build configuration list for PBXNativeTarget "DNKTalkSDKDemo" */;
+			buildPhases = (
+				672DEAC6FF334E061FC3CB74 /* [CP] Check Pods Manifest.lock */,
+				1984E00D22CD9C1C0012A24B /* Sources */,
+				1984E00E22CD9C1C0012A24B /* Frameworks */,
+				1984E00F22CD9C1C0012A24B /* Resources */,
+				198958F122D86471008409DD /* Embed Frameworks */,
+				F311BF371A92F1C36ECB0CD7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNKTalkSDKDemo;
+			productName = DNKTalkSDKTestDemo;
+			productReference = 1984E01122CD9C1C0012A24B /* DNKTalkSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1984E00922CD9C1C0012A24B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dnake_ay;
+				TargetAttributes = {
+					1984E01022CD9C1C0012A24B = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1984E00C22CD9C1C0012A24B /* Build configuration list for PBXProject "DNKTalkSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1984E00822CD9C1C0012A24B;
+			productRefGroup = 1984E01222CD9C1C0012A24B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1984E01022CD9C1C0012A24B /* DNKTalkSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1984E00F22CD9C1C0012A24B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1984E02122CD9C240012A24B /* LaunchScreen.storyboard in Resources */,
+				1984E01E22CD9C240012A24B /* Assets.xcassets in Resources */,
+				1984E03C22CDCEBD0012A24B /* IncomingViewController.xib in Resources */,
+				19DE768822D4331E007C0041 /* MonitorVideoViewController.xib in Resources */,
+				196A9FFC22DD572C00E8BDE0 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		672DEAC6FF334E061FC3CB74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DNKTalkSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F311BF371A92F1C36ECB0CD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNKTalkSDKDemo/Pods-DNKTalkSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNKTalkSDKDemo/Pods-DNKTalkSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKTalkSDKDemo/Pods-DNKTalkSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1984E00D22CD9C1C0012A24B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7EEAE0286E9ED000A69404 /* main.m in Sources */,
+				1E7EEADF286E9ECE00A69404 /* MonitorVideoViewController.m in Sources */,
+				1E7EEADE286E9ECB00A69404 /* IncomingViewController.m in Sources */,
+				1E7EEADD286E9EC900A69404 /* ViewController.m in Sources */,
+				1E7EEADC286E9E4300A69404 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1984E01F22CD9C240012A24B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1984E02022CD9C240012A24B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1984E02522CD9C240012A24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1984E02622CD9C240012A24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1984E02822CD9C240012A24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9C38343768A81CA3045206 /* Pods-DNKTalkSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = K337TT4UYE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DNKTalkSDKDemo",
+				);
+				GCC_PREFIX_HEADER = DNKTalkSDKDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = DNKTalkSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnake.DNKTalkSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1984E02922CD9C240012A24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D263ACCB1FB0EDB54BD2BDC6 /* Pods-DNKTalkSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = K337TT4UYE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DNKTalkSDKDemo",
+				);
+				GCC_PREFIX_HEADER = DNKTalkSDKDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = DNKTalkSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnake.DNKTalkSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1984E00C22CD9C1C0012A24B /* Build configuration list for PBXProject "DNKTalkSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1984E02522CD9C240012A24B /* Debug */,
+				1984E02622CD9C240012A24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1984E02722CD9C240012A24B /* Build configuration list for PBXNativeTarget "DNKTalkSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1984E02822CD9C240012A24B /* Debug */,
+				1984E02922CD9C240012A24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1984E00922CD9C1C0012A24B /* Project object */;
+}

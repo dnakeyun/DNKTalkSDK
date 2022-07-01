@@ -1,13 +1,9 @@
-use_frameworks!
+platform :ios, '8.0'
 
-platform :ios, '10.0'
+target 'DNKTalkSDKDemo' do
 
-target 'DNKTaskSDK_Example' do
-  pod 'DNKTaskSDK', :path => '../'
-
-  target 'DNKTaskSDK_Tests' do
-    inherit! :search_paths
-
-    
-  end
+pod 'AYUtils'#菊花
+#pod 'DNKTalkSDK',:git=>'https://github.com/lsy076/DNKTalkSDK'
+ pod 'DNKTalkSDK', :path => "../"
 end
+
