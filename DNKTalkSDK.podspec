@@ -9,6 +9,9 @@ Pod::Spec.new do |s|
   s.author           = { 'cqcool' => 'cqcool@icloud' }
   s.source           = { :git => 'https://github.com/dnakeyun/DNKTalkSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
+  s.vendored_frameworks = [
+     'DNKTalkSDK/DNKTalkSDK.framework',
+    ]
   s.requires_arc = true
   s.pod_target_xcconfig = {
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
