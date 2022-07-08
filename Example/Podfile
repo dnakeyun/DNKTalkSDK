@@ -1,9 +1,8 @@
 platform :ios, '8.0'
 
 target 'DNKTalkSDKDemo' do
-
-pod 'AYUtils'#菊花
-#pod 'DNKTalkSDK',:git=>'https://github.com/lsy076/DNKTalkSDK'
- pod 'DNKTalkSDK', :path => "../"
+#  use_frameworks!
+  pod 'AYUtils'#菊花
+  #pod 'DNKTalkSDK',:git=>'https://github.com/lsy076/DNKTalkSDK'
+  pod 'DNKTalkSDK', :path => "../"
 end
-

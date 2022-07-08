@@ -19,5 +19,14 @@
   },
   "vendored_frameworks": [
     "DNKTalkSDK/DNKTalkSDK.framework"
-  ]
+  ],
+  "requires_arc": true,
+  "preserve_paths": "DNKTalkSDK/libs_ios/",
+  "vendored_libraries": "DNKTalkSDK/libs_ios/",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
 }

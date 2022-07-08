@@ -27,8 +27,11 @@
     [[DNKTalkManager sharedInstance] initSDK];
     
     //收到门口机呼叫消息
-    [[DNKTalkManager sharedInstance] setReceiveCallingSuccessBlock:^{
-        
+    [[DNKTalkManager sharedInstance] setReceiveCallingSuccessBlock:^(NSDictionary *responseData) {
+        NSString *dataJSON = [[NSString alloc] initWithData:[NSJSONSerialization dataWithJSONObject:responseData
+                                                                                            options:NSJSONWritingPrettyPrinted
+                                                                                              error:nil] encoding:NSUTF8StringEncoding];
+        NSLog(@"包含callID：%@", dataJSON);
         IncomingViewController *incomingVC = [IncomingViewController new];
         UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:incomingVC];
         [[self getCurrentVC] presentViewController:nav animated:YES completion:nil];

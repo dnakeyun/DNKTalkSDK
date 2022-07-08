@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -32,7 +32,7 @@
 		86D3D40C79E32B42B306772775C7C731 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F43D029670BF3DDA0FD6960CA728B4 /* MBProgressHUD-dummy.m */; };
 		8F54D3245D1F7E323DE37973F169DEB0 /* AYGetLocalIpAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = CC99EA5561E05CBF98834AD255BADCC5 /* AYGetLocalIpAddress.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93D8560872AF9D47F840120C940674D8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E491B644CB54632F6B27ACC1E37679AF /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C09AF969230151662E83F3A217B5734E /* Pods-DNKTalkSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 432643FD1E860DE5338B401AF051A81F /* Pods-DNKTalkSDKDemo-dummy.m */; };
+		C09AF969230151662E83F3A217B5734E /* Pods-DNKTalkSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90907B8DB468F6E63330EDAC7647319C /* Pods-DNKTalkSDKDemo-dummy.m */; };
 		C302EE629EE8CC6F26179842EA959EF1 /* EncodeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EF091F0BD822B7B517C6470855196B /* EncodeControl.m */; };
 		FFEEEDA7962B2EAA9E03C245F270F780 /* AYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A19CB0AA94192DF68950F6C3F8272E /* AYUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
@@ -71,13 +71,14 @@
 /* Begin PBXFileReference section */
 		0A0013242F57520598E57D35F7B06918 /* AYUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYUtils-dummy.m"; sourceTree = "<group>"; };
 		11FE42F1EBE6011EC16739515C9D3251 /* AYProgressHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYProgressHud.h; path = AYUtils/AYUtils/AYProgressHud.h; sourceTree = "<group>"; };
+		15326D93B64D54051AD7FCE68ABFF0A1 /* Pods-DNKTalkSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKTalkSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1877252E05E48610D4B1BA2C8FFC1512 /* Pods-DNKTalkSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKTalkSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		1F001D6BB022EB1161D9443FA79D94DF /* DNKTalkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DNKTalkSDK.framework; path = DNKTalkSDK/DNKTalkSDK.framework; sourceTree = "<group>"; };
 		2023259A4EFA2198F850C60387757E81 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		271C6923A01FF7788AA5107A772E1B63 /* DNKTalkSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DNKTalkSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40F5B5CB92DB1745A617A55E59210A5E /* AYAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYAlertViewController.h; path = AYUtils/AYUtils/AYAlertViewController.h; sourceTree = "<group>"; };
 		415CE271A66F561810C9548777CC9688 /* AYUtils */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = AYUtils; path = libAYUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		432643FD1E860DE5338B401AF051A81F /* Pods-DNKTalkSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNKTalkSDKDemo-dummy.m"; sourceTree = "<group>"; };
-		56F38FC367FF9EDF83D69A015BB2883D /* Pods-DNKTalkSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKTalkSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5403DB667B0DE0EED8B1EDF757FED0A1 /* Pods-DNKTalkSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNKTalkSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A585D5CC561AA19529CC69FAAC58981 /* DNKTalkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNKTalkSDK.debug.xcconfig; sourceTree = "<group>"; };
 		61CD9607203BBC684E6E5B08A686D0A1 /* AYAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AYAlertViewController.m; path = AYUtils/AYUtils/AYAlertViewController.m; sourceTree = "<group>"; };
 		727F1C81B1CB7057214F8E2432C90B30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
@@ -89,17 +90,15 @@
 		86A19CB0AA94192DF68950F6C3F8272E /* AYUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYUtils.h; path = AYUtils/AYUtils/AYUtils.h; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MBProgressHUD; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7B399CBB8A93720AB1254E31AF1A10 /* AYUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYUtils.release.xcconfig; sourceTree = "<group>"; };
+		90907B8DB468F6E63330EDAC7647319C /* Pods-DNKTalkSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNKTalkSDKDemo-dummy.m"; sourceTree = "<group>"; };
 		9AB83090BE668670F56F38F5489AA489 /* EncodeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EncodeControl.h; path = AYUtils/AYUtils/EncodeControl.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DB3271F7166024EB3042BCDF90BA508 /* Pods-DNKTalkSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNKTalkSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
 		A67FB102C83D0837BC774A4BBF6B8FF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A76B5B62ED3F79D286ED7AB9D27B84A8 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		AF147830C1BF08993EFD3C2A0DB932D5 /* Pods-DNKTalkSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKTalkSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B308CC6B1E2D7EF2CE439E74E4422082 /* Pods-DNKTalkSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKTalkSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B4DAFCEC5F2E0AA0FA9CFBDCED73B62B /* AYProgressHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AYProgressHud.m; path = AYUtils/AYUtils/AYProgressHud.m; sourceTree = "<group>"; };
-		B5205E934E8B9D38B298FE7408AA28A5 /* Pods-DNKTalkSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKTalkSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B5EF091F0BD822B7B517C6470855196B /* EncodeControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EncodeControl.m; path = AYUtils/AYUtils/EncodeControl.m; sourceTree = "<group>"; };
 		B7F43D029670BF3DDA0FD6960CA728B4 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		BED0E786E2E2B9593E5C60A513ECF570 /* Pods-DNKTalkSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNKTalkSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CC99EA5561E05CBF98834AD255BADCC5 /* AYGetLocalIpAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYGetLocalIpAddress.h; path = AYUtils/AYUtils/AYGetLocalIpAddress.h; sourceTree = "<group>"; };
 		D1A3F53EA0E1D84C5C3B0D4AF5AE6972 /* AYUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYUtils-prefix.pch"; sourceTree = "<group>"; };
 		D5C67D7729233CC18080EE2A562B69F1 /* Pods-DNKTalkSDKDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-DNKTalkSDKDemo"; path = "libPods-DNKTalkSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +143,19 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		16042FC9928BB01258EEFE9A644B5F19 /* Pods-DNKTalkSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5403DB667B0DE0EED8B1EDF757FED0A1 /* Pods-DNKTalkSDKDemo-acknowledgements.markdown */,
+				1877252E05E48610D4B1BA2C8FFC1512 /* Pods-DNKTalkSDKDemo-acknowledgements.plist */,
+				90907B8DB468F6E63330EDAC7647319C /* Pods-DNKTalkSDKDemo-dummy.m */,
+				15326D93B64D54051AD7FCE68ABFF0A1 /* Pods-DNKTalkSDKDemo.debug.xcconfig */,
+				B308CC6B1E2D7EF2CE439E74E4422082 /* Pods-DNKTalkSDKDemo.release.xcconfig */,
+			);
+			name = "Pods-DNKTalkSDKDemo";
+			path = "Target Support Files/Pods-DNKTalkSDKDemo";
+			sourceTree = "<group>";
+		};
 		1ABAAD212D8B1FD42BC07FD35ADC22FA /* DNKTalkSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,14 +177,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AYUtils";
-			sourceTree = "<group>";
-		};
-		5A58AD973F3715C0725BE8B8C9870858 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9634AD7CBB8FB79EF0207B66E1C6400D /* Pods-DNKTalkSDKDemo */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		5FE1592943A023A9B5FA46BB59FFBBE2 /* AYUtils */ = {
@@ -234,20 +238,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9634AD7CBB8FB79EF0207B66E1C6400D /* Pods-DNKTalkSDKDemo */ = {
-			isa = PBXGroup;
-			children = (
-				BED0E786E2E2B9593E5C60A513ECF570 /* Pods-DNKTalkSDKDemo-acknowledgements.markdown */,
-				AF147830C1BF08993EFD3C2A0DB932D5 /* Pods-DNKTalkSDKDemo-acknowledgements.plist */,
-				432643FD1E860DE5338B401AF051A81F /* Pods-DNKTalkSDKDemo-dummy.m */,
-				9DB3271F7166024EB3042BCDF90BA508 /* Pods-DNKTalkSDKDemo-frameworks.sh */,
-				56F38FC367FF9EDF83D69A015BB2883D /* Pods-DNKTalkSDKDemo.debug.xcconfig */,
-				B5205E934E8B9D38B298FE7408AA28A5 /* Pods-DNKTalkSDKDemo.release.xcconfig */,
-			);
-			name = "Pods-DNKTalkSDKDemo";
-			path = "Target Support Files/Pods-DNKTalkSDKDemo";
-			sourceTree = "<group>";
-		};
 		9A0DE62E013E94EBD414D18A6EFC3227 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,7 +264,7 @@
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				62D094AEA74412EA279494FA53CB7D1B /* Pods */,
 				FC9A099C3E82534E80AF9303DE917F8E /* Products */,
-				5A58AD973F3715C0725BE8B8C9870858 /* Targets Support Files */,
+				DC07A2097EB3E9E25491451D3B351301 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -283,6 +273,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC07A2097EB3E9E25491451D3B351301 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16042FC9928BB01258EEFE9A644B5F19 /* Pods-DNKTalkSDKDemo */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		FC9A099C3E82534E80AF9303DE917F8E /* Products */ = {
@@ -394,7 +392,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -639,7 +637,7 @@
 		};
 		C0E8CAB6E6E5A44F127F2EF91E932640 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5205E934E8B9D38B298FE7408AA28A5 /* Pods-DNKTalkSDKDemo.release.xcconfig */;
+			baseConfigurationReference = B308CC6B1E2D7EF2CE439E74E4422082 /* Pods-DNKTalkSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -749,7 +747,7 @@
 		};
 		EC328545EB2146036216A921560A9A97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56F38FC367FF9EDF83D69A015BB2883D /* Pods-DNKTalkSDKDemo.debug.xcconfig */;
+			baseConfigurationReference = 15326D93B64D54051AD7FCE68ABFF0A1 /* Pods-DNKTalkSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

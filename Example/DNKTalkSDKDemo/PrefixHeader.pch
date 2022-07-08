@@ -17,7 +17,7 @@
 #import <DNKTalkSDK/SipConfigEntity.h>
 
 //sip设备配置（测试账号）
-
+ 
 #define SIP_SERVICE     @""
 #define SIP_ACCOUNT     @""
 #define SIP_PASSWORD    @""
