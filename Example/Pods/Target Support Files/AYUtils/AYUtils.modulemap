@@ -1,6 +1,0 @@
-framework module AYUtils {
-  umbrella header "AYUtils-umbrella.h"
-
-  export *
-  module * { export * }
-}

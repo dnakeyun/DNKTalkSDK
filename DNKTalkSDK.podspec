@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DNKTalkSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'DNKTalkSDK对讲库'
   s.homepage         = 'https://github.com/dnakeyun/dnake-specs'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

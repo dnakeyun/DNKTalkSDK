@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		1984E03C22CDCEBD0012A24B /* IncomingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1984E03B22CDCEBD0012A24B /* IncomingViewController.xib */; };
 		19DE768822D4331E007C0041 /* MonitorVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DE768622D4331E007C0041 /* MonitorVideoViewController.xib */; };
 		1E034241287849B7006D6C1B /* DNKTalkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E034240287849B7006D6C1B /* DNKTalkSDK.framework */; };
-		1E034242287849B7006D6C1B /* DNKTalkSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E034240287849B7006D6C1B /* DNKTalkSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E7EEADC286E9E4300A69404 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984E01522CD9C1C0012A24B /* AppDelegate.m */; };
 		1E7EEADD286E9EC900A69404 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984E01822CD9C1C0012A24B /* ViewController.m */; };
 		1E7EEADE286E9ECB00A69404 /* IncomingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984E03622CDA8770012A24B /* IncomingViewController.m */; };
@@ -21,20 +20,6 @@
 		1E7EEAE0286E9ED000A69404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984E02322CD9C240012A24B /* main.m */; };
 		C7191E77F516FF99FCA8DE6F /* libPods-DNKTalkSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AB1180029209C040C46DBB /* libPods-DNKTalkSDKDemo.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1E034243287849B7006D6C1B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1E034242287849B7006D6C1B /* DNKTalkSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		195BEE0222DC6BF2002A7452 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -55,7 +40,6 @@
 		19DE768522D4331E007C0041 /* MonitorVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonitorVideoViewController.m; sourceTree = "<group>"; };
 		19DE768622D4331E007C0041 /* MonitorVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonitorVideoViewController.xib; sourceTree = "<group>"; };
 		1E034240287849B7006D6C1B /* DNKTalkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DNKTalkSDK.framework; path = ../DNKTalkSDK/DNKTalkSDK.framework; sourceTree = "<group>"; };
-		1E226F962877FBFD0080B2D2 /* DNKTalkSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DNKTalkSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E226FA7287809F90080B2D2 /* libosip2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libosip2.a; path = "../../DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libosip2.a"; sourceTree = "<group>"; };
 		1E226FA8287809F90080B2D2 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = "../../DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libswscale.a"; sourceTree = "<group>"; };
 		1E226FA9287809F90080B2D2 /* libtalk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtalk.a; path = "../../DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libtalk.a"; sourceTree = "<group>"; };
@@ -65,15 +49,6 @@
 		1E226FAD287809FA0080B2D2 /* libeXosip2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libeXosip2.a; path = "../../DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libeXosip2.a"; sourceTree = "<group>"; };
 		1E226FAE287809FA0080B2D2 /* libortp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libortp.a; path = "../../DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libortp.a"; sourceTree = "<group>"; };
 		1E226FAF287809FA0080B2D2 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = "../../DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libavformat.a"; sourceTree = "<group>"; };
-		1E226FB028780A1F0080B2D2 /* libosip2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libosip2.a; path = "DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libosip2.a"; sourceTree = "<group>"; };
-		1E226FB128780A1F0080B2D2 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = "DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libswscale.a"; sourceTree = "<group>"; };
-		1E226FB228780A1F0080B2D2 /* libortp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libortp.a; path = "DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libortp.a"; sourceTree = "<group>"; };
-		1E226FB328780A1F0080B2D2 /* libeXosip2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libeXosip2.a; path = "DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libeXosip2.a"; sourceTree = "<group>"; };
-		1E226FB428780A1F0080B2D2 /* libtalk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtalk.a; path = "DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libtalk.a"; sourceTree = "<group>"; };
-		1E226FB528780A1F0080B2D2 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = "DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libavformat.a"; sourceTree = "<group>"; };
-		1E226FB628780A200080B2D2 /* libosipparser2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libosipparser2.a; path = "DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libosipparser2.a"; sourceTree = "<group>"; };
-		1E226FB728780A200080B2D2 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libavcodec.a"; sourceTree = "<group>"; };
-		1E226FB828780A200080B2D2 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "DNKTalkSDK-Source-code-AY/DNKTalkSDK/V700/libs_ios/libavutil.a"; sourceTree = "<group>"; };
 		1E226FC228780A880080B2D2 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		1E226FC428780A910080B2D2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		59AB1180029209C040C46DBB /* libPods-DNKTalkSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DNKTalkSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,24 +117,14 @@
 				1E226FC428780A910080B2D2 /* libc++.tbd */,
 				1E226FC228780A880080B2D2 /* libresolv.tbd */,
 				1E226FAC287809FA0080B2D2 /* libavcodec.a */,
-				1E226FB728780A200080B2D2 /* libavcodec.a */,
 				1E226FAF287809FA0080B2D2 /* libavformat.a */,
 				1E226FAB287809FA0080B2D2 /* libavutil.a */,
-				1E226FB528780A1F0080B2D2 /* libavformat.a */,
-				1E226FB828780A200080B2D2 /* libavutil.a */,
 				1E226FAD287809FA0080B2D2 /* libeXosip2.a */,
-				1E226FB328780A1F0080B2D2 /* libeXosip2.a */,
 				1E226FAE287809FA0080B2D2 /* libortp.a */,
-				1E226FB228780A1F0080B2D2 /* libortp.a */,
 				1E226FA7287809F90080B2D2 /* libosip2.a */,
 				1E226FAA287809F90080B2D2 /* libosipparser2.a */,
-				1E226FB628780A200080B2D2 /* libosipparser2.a */,
 				1E226FA8287809F90080B2D2 /* libswscale.a */,
 				1E226FA9287809F90080B2D2 /* libtalk.a */,
-				1E226FB028780A1F0080B2D2 /* libosip2.a */,
-				1E226FB128780A1F0080B2D2 /* libswscale.a */,
-				1E226FB428780A1F0080B2D2 /* libtalk.a */,
-				1E226F962877FBFD0080B2D2 /* DNKTalkSDK.framework */,
 				59AB1180029209C040C46DBB /* libPods-DNKTalkSDKDemo.a */,
 			);
 			name = Frameworks;
@@ -185,7 +150,7 @@
 				1984E00D22CD9C1C0012A24B /* Sources */,
 				1984E00E22CD9C1C0012A24B /* Frameworks */,
 				1984E00F22CD9C1C0012A24B /* Resources */,
-				1E034243287849B7006D6C1B /* Embed Frameworks */,
+				535E8C0AFA4B2FA081C74FC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +214,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		535E8C0AFA4B2FA081C74FC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNKTalkSDKDemo/Pods-DNKTalkSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNKTalkSDKDemo/Pods-DNKTalkSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKTalkSDKDemo/Pods-DNKTalkSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		672DEAC6FF334E061FC3CB74 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

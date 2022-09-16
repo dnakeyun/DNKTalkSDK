@@ -1,7 +1,7 @@
 PODS:
   - AYUtils (0.1.7):
     - MBProgressHUD
-  - DNKTalkSDK (1.0.0)
+  - DNKTalkSDK (1.0.1)
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AYUtils: c31a4fee1c90c410bb9cf5baa1ecbd898bda8d70
-  DNKTalkSDK: 1001d64f5ad2b1c53fe95da35e1affb3feee4f1e
+  DNKTalkSDK: 4cff511337e0fc8d085c6b71dabc7177d38eeb68
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: 4cc0a1aaa40c26757467371c6c785753b0e6c0a7
