@@ -1,27 +1,25 @@
 PODS:
   - AYUtils (0.1.7):
     - MBProgressHUD
-  - DNKTalkSDK (1.0.1)
+  - DNKTalkSDK (1.0.2)
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
   - AYUtils
-  - DNKTalkSDK (from `../`)
+  - DNKTalkSDK
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - AYUtils
     - MBProgressHUD
-
-EXTERNAL SOURCES:
-  DNKTalkSDK:
-    :path: "../"
+  https://github.com/dnakeyun/dnake-specs.git:
+    - DNKTalkSDK
 
 SPEC CHECKSUMS:
   AYUtils: c31a4fee1c90c410bb9cf5baa1ecbd898bda8d70
-  DNKTalkSDK: 4cff511337e0fc8d085c6b71dabc7177d38eeb68
+  DNKTalkSDK: fe89647ab0f7f50f4b5c3d108f38ac93854ffdc9
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
-PODFILE CHECKSUM: 4cc0a1aaa40c26757467371c6c785753b0e6c0a7
+PODFILE CHECKSUM: b8fb7ff2e38111b6b020b63e232a1628414e0bfb
 
 COCOAPODS: 1.11.3

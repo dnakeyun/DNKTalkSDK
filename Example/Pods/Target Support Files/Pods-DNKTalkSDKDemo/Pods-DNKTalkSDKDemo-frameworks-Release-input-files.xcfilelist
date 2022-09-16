@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-DNKTalkSDKDemo/Pods-DNKTalkSDKDemo-frameworks.sh
-${PODS_ROOT}/../../DNKTalkSDK/DNKTalkSDK.framework
+${PODS_ROOT}/DNKTalkSDK/DNKTalkSDK/DNKTalkSDK.framework

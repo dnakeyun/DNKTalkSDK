@@ -1,8 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/dnakeyun/dnake-specs.git'
+
 platform :ios, '8.0'
 
 target 'DNKTalkSDKDemo' do
 #  use_frameworks!
   pod 'AYUtils'#菊花
-  #pod 'DNKTalkSDK',:git=>'https://github.com/lsy076/DNKTalkSDK'
-  pod 'DNKTalkSDK', :path => "../"
+  pod 'DNKTalkSDK'#,:git=>'https://github.com/lsy076/DNKTalkSDK'
+  #pod 'DNKTalkSDK', :path => "../"
 end
